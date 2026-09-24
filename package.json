@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-data-winnipeg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Winnipeg Open Data (data.winnipeg.ca) Socrata MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-data-winnipeg": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-winnipeg"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-data-winnipeg"
+    "url": "git+https://github.com/pipeworx-io/mcp-data-winnipeg.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-30b6e2a50c0deaebbfe70a42b8d29657c45c173c40512c5f5d9a349c88ec744e",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }
