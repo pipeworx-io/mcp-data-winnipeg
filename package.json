@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-winnipeg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Winnipeg Open Data (data.winnipeg.ca) Socrata MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-30b6e2a50c0deaebbfe70a42b8d29657c45c173c40512c5f5d9a349c88ec744e",
-    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
+    "sourceHash": "v1-d165f9fe6bc05abc1c2524e45aec17cf2849a9fb0512e53e26dba7bdf7538b1b",
+    "sourceCommit": "56d3c46c09bb3078ffdbdbca992a93f406bcd382"
   }
 }
